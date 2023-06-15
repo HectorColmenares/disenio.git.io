@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="css/style.css">
+        <title>Diseño 2</title>
+    </head>
+    <body>
+        <header>
+
+        </header>
+        <main>
+            <div class="lateral">
+                <!--Esta parte de la class arri la fecha se hizo con codigo ascii (alt + 24) lo mismo para la fecha que apunta hacia abajo(alt + 25)-->
+                <div class="arri">↑</a></div>
+                <div class="cDraw" style="color: rgb(6, 18, 234);">
+
+
+
+                    <!--Para los botones que aparecen como estrellas se utilizaron asteriscos para poder simularlos-->
+                    <div class="estre">*</div>
+                    <div class="estre">*</div>
+                    <div class="estre">*</div>
+                    <div class="estre">*</div>
+                </div>
+                <div class="Abaj">↓</a></div>
+            </div>
+            <div class="mainConteiner">
+                <!--Titulo que aparece en pantalla-->
+                <h1>Basic Details</h1>
+
+
+                <!--Bloque de codigo para el formulario que aparece en la pagina web-->
+                <div class="formulario1">
+                    <form action="example.php" method="post">
+                        <div class="boxInput1">
+                            <!--Etiqueta para ingresar el nombre-->
+                            <label for="fName">First Name</label>
+                            <br>
+                            <input type="text" name="fName" id="fName" required placeholder="Ingresa tu nombre" maxlength="20" minlength="3">
+                        </div>
+                        <!--Etiqueta para ingresar el apellido-->
+                        <div class="boxInput">
+                            <label for="lName">Last Name</label>
+                            <br>
+                            <input type="text" name="lName" id="lName" required placeholder="Ingresa tu apellido" maxlength="20" minlength="2">
+                        </div>
+
+                        <br>
+                        <!--Etiqueta para ingresar el Correo electronico-->
+                        <div class="boxInput1">
+                            <label for="email">Email ID</label>
+                            <br>
+                            <input type="email" name="email" id="email" required placeholder="Ingresa tu email">
+                        </div>
+
+                        <!--Etiqueta para ingresar el Id de usuario-->
+                        <div class="boxInput">
+                            <label for="user">Your User ID</label>
+                            <br>
+                            <input type="text" name="user" id="user" required placeholder="Uusario" maxlength="15" minlength="10">
+                        </div>
+
+                        <br>
+
+                        <!--Acontinuacion ingresamos una serie de opciones para seleccionar un valor para el campo pais-->
+                        <div class="boxInput1">
+                            <label for="pais">Country</label>
+                            <br>
+                            <select name="pais" id="pais">
+                                <option value="1">Mexico</option>
+                                <option value="2">USA</option>
+                                <option value="3">Rusia</option>
+                                <option value="4">Alemania</option>
+                                <option value="5">Canada</option>
+                                <option value="6">Suecia</option>
+                                <option value="7">Portugal</option>
+                                <option value="8">China</option>
+                                <option value="9">España</option>
+                                <option value="10">Colombia</option>
+                            </select>   
+                            
+                        </div>
+
+                         <!--Acontinuacion ingresamos una serie de opciones para seleccionar un valor para el campo Estado-->
+                        <div class="boxInput3">
+                            <label for="state">State</label>
+                            <br>
+                            <select name="state" id="state">
+                                <option value="1">Oaxaca</option>
+                                <option value="2">USA</option>
+                                <option value="3">Rusia</option>
+                                <option value="4">Alemania</option>
+                                <option value="5">Canada</option>
+                                <option value="6">Suecia</option>
+                                <option value="7">Portugal</option>
+                                <option value="8">China</option>
+                                <option value="9">España</option>
+                                <option value="10">Colombia</option>
+                            </select>
+                        </div>
+
+                         <!--Acontinuacion ingresamos una serie de opciones para seleccionar un valor para el campo Ciudad-->
+                        <div class="boxInput3">
+                            <label for="city">City</label>
+                            <br>
+                            <select name="city" id="city">
+                                <option value="1">Oaxaca</option>
+                                <option value="2">Zimatlan</option>
+                                <option value="3">Santa Ana Tlapacoyan</option>
+                                <option value="4">Ayoquezco</option>
+                                <option value="5">San Bartolo Coyetepec</option>
+                                <option value="6">Istmo</option>
+                                <option value="7">Huatulco</option>
+                                <option value="8">Puerto Escondido</option>
+                                <option value="9">Juquila</option>
+                                <option value="10">------</option>
+                            </select>
+                        </div>
+                        <br>
+                        <!--Etiqueta para ingresar el numero de telefono-->
+                        <div class="boxInput1">
+                            <label for="fNumber">Phone Number</label>
+                            <br>
+                            <input type="text" name="fNumber" id="fNumber" required placeholder="(951)-123-45-67" pattern="\(\d{3}\)\d{3}-\d{2}-\d{2}">
+                        </div>
+
+                        <!--Etiqueta para ingresar el Codigo de referencia-->
+                        <div class="boxInput">
+                            
+                            <br>
+                            <input type="number" name="cRef" id="cRef" required placeholder="Reference Code" pattern="d{3}\-\d{3}">
+                        </div>
+                        <br>
+
+                        <!--Los diferentes tipos de botones con los que cuenta el formulario-->
+                        <div class="btos">
+                            <div class="grisB" >
+                                <input type="reset" name="cancelar" id="cancelar" value="Reset All">
+                            </div>
+                            
+                            <input class="azulB" type="submit" value="Continue">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>

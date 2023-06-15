@@ -1,0 +1,215 @@
+*{
+    background-color: whitesmoke;
+}
+main{
+    display: flex;
+    flex-direction: row;
+}
+
+.lateral{
+    display: flex;
+    height: 600px;
+    color: rgb(1, 8, 8);
+    flex-grow: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #005FAF;
+}
+.arri{
+    display: flex;
+     margin-top: 50px;
+     
+    flex-grow: 3;
+}
+.arri a, .Abaj a{
+    text-decoration: none;
+    text-align: center;
+    
+    font-size: 30px;
+    width: 35px;
+    height:35px;
+    color: white;
+    border: solid 1px;
+    border-color: white;
+    border-radius: 25px;
+
+}
+.arri a:hover{
+    font-size: 40px;
+    width: 45px;
+    height:45px;
+    margin-right: -10x;
+    margin-left: -10px;
+    margin-bottom: -10px;
+}
+.Abaj a:hover{
+    font-size: 40px;
+    width: 45px;
+    height:45px;
+    margin-right: -10x;
+    margin-left: -10px;
+    margin-top: -10px;
+}
+/********/
+.cDraw{
+    display: flex;
+    flex-direction: column;
+     
+    flex-grow: 1;
+     
+}
+.estre{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 15px;
+}
+.estre:hover{
+    font-size: 25px;
+    margin: -10px;
+}
+
+/********/
+
+.Abaj{
+    display: flex;
+    align-items: flex-end;
+    flex-grow: 2;
+    margin-bottom: 50px;
+    
+    
+}
+
+
+
+.mainConteiner{
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    width: auto; 
+    flex-grow: 4;
+     
+    color: black;
+}
+h1{
+    display: flex;
+    position: relative;
+    left: 20px;
+    color:#005FAF ;
+     
+    font-size: 30px;
+    margin-bottom: 60px;
+}
+.formulario1{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    font-size: 20px;
+    
+     
+}
+.formulario1 input{
+    border: none;
+    height: 25px;
+    border-bottom: solid black 1px;
+    width: 300px;
+}
+
+.formulario1 .boxInput1 select{
+    border-color: white;
+    height: 25px;
+     
+    border-bottom: solid black 1px;
+    width: 300px;
+}
+
+.boxInput1{
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    margin-left: -50px;
+    margin-bottom: 60px;
+     
+}
+.boxInput{
+    display: inline-block;
+    position: relative;
+    width: 400px;
+    margin-right: -50px;
+    margin-bottom: 60px; 
+}
+
+
+
+.boxInput3{
+    display: inline-block;
+    position: relative;
+    width: 150px;
+    
+    margin-bottom: 60px;
+     
+}
+
+.formulario1 .boxInput3 select{
+    border-color: white;
+    height: 25px;
+     
+    border-bottom: solid black 1px;
+    width: 150px;
+}
+.btos{
+    display: flex;
+    position: relative;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.grisB, .azulB{
+    text-decoration: none;
+
+}
+ 
+
+input[type="submit"] {
+    background-color: #005FAF;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    width: 100px; 
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+}
+input[type="submit"]:hover{
+    background-color: #3f729c;
+    color: rgb(46, 44, 44);
+}
+
+  input[type="reset"] {
+     
+    color: rgb(77, 73, 73);
+    border: none;
+    border-radius: 20px;
+    width: 100px; 
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+  }
+  input[type="reset"]:hover{
+    background-color: #ffffff;
+    color: white;
+  }
+  input[type="reset"]:hover{
+    background-color: #948f8f;
+    color: rgb(24, 24, 46);
+  }
+   
+
+.grisB{
+    display: flex;
+    color: darkgray;
+    justify-content: flex-start;
+     
+}
+ 
